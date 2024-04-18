@@ -14,10 +14,10 @@
         }
         function redirectToLanguagePage(primaryLanguage) {
         let languageCode = 'en';
-        if (primaryLanguage === 'id') {
-            languageCode = 'id';
+        if (primaryLanguage === 'en') {
+            languageCode = 'en';
         }
-        const redirectUrl = `http://127.0.0.1:4000/${languageCode}/`;
+        const redirectUrl = `https://saungbelike.com/${languageCode}/`;
         window.location.href = redirectUrl;
         }
         const userLanguage = getSystemLanguage();
